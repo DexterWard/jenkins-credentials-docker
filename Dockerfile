@@ -1,6 +1,6 @@
 ##Descargamos una versión concreta de UBUNTU, a través del tag 
 FROM ubuntu 
-LABEL Docker_Jenkins_Test 
+LABEL version="1.0"
 ##Actualizamos el sistema 
 RUN apt-get update 
 ##Instalamos nginx 
